@@ -1,4 +1,8 @@
-Ejer.dat : Ejer.x
+Ejer.png : Ejer.dat Ejercicio27.py
+	python Ejercicio27.py
+
+
+Ejer.dat  : Ejer.x
 	./Ejer.x > Ejer.dat
 
 
@@ -7,4 +11,4 @@ Ejer.x : Ejercicio27.cpp
 	
 
 clean:
-	rm Ejer.x Ejer.dat
+	rm Ejer.x Ejer.dat Ejer.png
